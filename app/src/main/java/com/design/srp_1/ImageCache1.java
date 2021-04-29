@@ -9,10 +9,10 @@ import android.util.LruCache;
  * @CreateDate: 21-4-29 下午4:04
  * @Version: 1.0.0
  */
-public class ImageCache {
+public class ImageCache1 {
     private LruCache<String, Bitmap> mImageCache;
 
-    public ImageCache() {
+    public ImageCache1() {
         initCache();
     }
 

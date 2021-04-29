@@ -8,4 +8,10 @@
         android:id="@+id/iv_single_resoponsibility"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="aginGetPic"
+        android:text="在获取一次" />
 </LinearLayout>

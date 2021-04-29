@@ -33,7 +33,7 @@ public class ImageLoad {
         mImageCache = new LruCache<>(cacheSize);
     }
 
-    public void displayImage(final String url, final ImageView imageView, final Handler handler) {
+    public void displayImage(final String url, final Handler handler) {
 //        imageView.setTag(url);
         mExecutroService.submit(new Runnable() {
             @Override
@@ -49,6 +49,7 @@ public class ImageLoad {
             }
         });
     }
+
     public Bitmap downloadImage(String imageUrl) {
         Bitmap bitmap = null;
         try {
